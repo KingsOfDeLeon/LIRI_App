@@ -1,315 +1,48 @@
-Artists: blink-182
+Spotify result: 
+Artists: Nirvana
 
-Song: All The Small Things
-
-Preview: null
-
-Album: Enema Of The State
-------------------------------------------------------------
-
-Artists: blink-182
-
-Song: All The Small Things
+Song: Smells Like Teen Spirit
 
 Preview: null
 
-Album: Greatest Hits
+Album: Nevermind (Remastered)
 ------------------------------------------------------------
 
-Artists: Rockabye Baby!
+Spotify result: 
+Artists: Nirvana
 
-Song: All the Small Things
-
-Preview: https://p.scdn.co/mp3-preview/6c44f4d3cea18aa2a0f7b13ceb0183e10db82ece?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: Lullaby Renditions of Blink-182
-------------------------------------------------------------
-
-Artists: Fame on Fire
-
-Song: All the Small Things
-
-Preview: https://p.scdn.co/mp3-preview/c0946e586a6c7673db9e601e97a966280d25d680?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: All the Small Things
-------------------------------------------------------------
-
-Artists: Scott Bradlee's Postmodern Jukebox, Puddles Pity Party
-
-Song: All The Small Things
-
-Preview: https://p.scdn.co/mp3-preview/8a39c7a626a1c4f9e8c5717668319cbd646edca5?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: Fake Blues
-------------------------------------------------------------
-
-Artists: blink-182
-
-Song: All The Small Things
+Song: Smells Like Teen Spirit
 
 Preview: null
 
-Album: Enema Of The State
+Album: Nevermind
 ------------------------------------------------------------
 
-Artists: blink-182
+Spotify result: 
+Artists: Tori Amos
 
-Song: All The Small Things
+Song: Smells Like Teen Spirit - 2015 Remaster
 
-Preview: null
+Preview: https://p.scdn.co/mp3-preview/f00857f1980b753dadb6a55ebebfaab7d8c24d18?cid=9a7af6699e8a482a8f65a5a2a20a2194
 
-Album: Greatest Hits
+Album: Little Earthquakes (Deluxe Edition)
 ------------------------------------------------------------
 
-Artists: Fame on Fire
+Movie result: 
+Title: Mr. Nobody
 
-Song: All the Small Things
+Release: 26 Sep 2013
 
-Preview: https://p.scdn.co/mp3-preview/c0946e586a6c7673db9e601e97a966280d25d680?cid=9a7af6699e8a482a8f65a5a2a20a2194
+IMDB Rating: [object Object]
 
-Album: All the Small Things
-------------------------------------------------------------
+Rotten Tomatoes Rating: [object Object]
 
-Artists: Scott Bradlee's Postmodern Jukebox, Puddles Pity Party
+Country: Belgium, Germany, Canada, France, USA, UK
 
-Song: All The Small Things
+Languages English, Mohawk
 
-Preview: https://p.scdn.co/mp3-preview/8a39c7a626a1c4f9e8c5717668319cbd646edca5?cid=9a7af6699e8a482a8f65a5a2a20a2194
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
 
-Album: Fake Blues
-------------------------------------------------------------
-
-Artists: Rockabye Baby!
-
-Song: All the Small Things
-
-Preview: https://p.scdn.co/mp3-preview/6c44f4d3cea18aa2a0f7b13ceb0183e10db82ece?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: Lullaby Renditions of Blink-182
-------------------------------------------------------------
-
-Artists: blink-182
-
-Song: All The Small Things
-
-Preview: null
-
-Album: Enema Of The State
-------------------------------------------------------------
-
-Artists: blink-182
-
-Song: All The Small Things
-
-Preview: null
-
-Album: Greatest Hits
-------------------------------------------------------------
-
-Artists: Scott Bradlee's Postmodern Jukebox, Puddles Pity Party
-
-Song: All The Small Things
-
-Preview: https://p.scdn.co/mp3-preview/8a39c7a626a1c4f9e8c5717668319cbd646edca5?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: Fake Blues
-------------------------------------------------------------
-
-Artists: Fame on Fire
-
-Song: All the Small Things
-
-Preview: https://p.scdn.co/mp3-preview/c0946e586a6c7673db9e601e97a966280d25d680?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: All the Small Things
-------------------------------------------------------------
-
-Artists: Rockabye Baby!
-
-Song: All the Small Things
-
-Preview: https://p.scdn.co/mp3-preview/6c44f4d3cea18aa2a0f7b13ceb0183e10db82ece?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: Lullaby Renditions of Blink-182
-------------------------------------------------------------
-
-Artists: blink-182
-
-Song: All The Small Things
-
-Preview: null
-
-Album: Enema Of The State
-------------------------------------------------------------
-
-Artists: blink-182
-
-Song: All The Small Things
-
-Preview: null
-
-Album: Greatest Hits
-------------------------------------------------------------
-
-Artists: Fame on Fire
-
-Song: All the Small Things
-
-Preview: https://p.scdn.co/mp3-preview/c0946e586a6c7673db9e601e97a966280d25d680?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: All the Small Things
-------------------------------------------------------------
-
-Artists: Scott Bradlee's Postmodern Jukebox, Puddles Pity Party
-
-Song: All The Small Things
-
-Preview: https://p.scdn.co/mp3-preview/8a39c7a626a1c4f9e8c5717668319cbd646edca5?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: Fake Blues
-------------------------------------------------------------
-
-Artists: Rockabye Baby!
-
-Song: All the Small Things
-
-Preview: https://p.scdn.co/mp3-preview/6c44f4d3cea18aa2a0f7b13ceb0183e10db82ece?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: Lullaby Renditions of Blink-182
-------------------------------------------------------------
-
-Artists: blink-182
-
-Song: All The Small Things
-
-Preview: null
-
-Album: Enema Of The State
-------------------------------------------------------------
-
-Artists: blink-182
-
-Song: All The Small Things
-
-Preview: null
-
-Album: Greatest Hits
-------------------------------------------------------------
-
-Artists: Rockabye Baby!
-
-Song: All the Small Things
-
-Preview: https://p.scdn.co/mp3-preview/6c44f4d3cea18aa2a0f7b13ceb0183e10db82ece?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: Lullaby Renditions of Blink-182
-------------------------------------------------------------
-
-Artists: Scott Bradlee's Postmodern Jukebox, Puddles Pity Party
-
-Song: All The Small Things
-
-Preview: https://p.scdn.co/mp3-preview/8a39c7a626a1c4f9e8c5717668319cbd646edca5?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: Fake Blues
-------------------------------------------------------------
-
-Artists: Fame on Fire
-
-Song: All the Small Things
-
-Preview: https://p.scdn.co/mp3-preview/c0946e586a6c7673db9e601e97a966280d25d680?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: All the Small Things
-------------------------------------------------------------
-
-Artists: blink-182
-
-Song: All The Small Things
-
-Preview: null
-
-Album: Enema Of The State
-------------------------------------------------------------
-
-Artists: blink-182
-
-Song: All The Small Things
-
-Preview: null
-
-Album: Greatest Hits
-------------------------------------------------------------
-
-Artists: Scott Bradlee's Postmodern Jukebox, Puddles Pity Party
-
-Song: All The Small Things
-
-Preview: https://p.scdn.co/mp3-preview/8a39c7a626a1c4f9e8c5717668319cbd646edca5?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: Fake Blues
-------------------------------------------------------------
-
-Artists: Fame on Fire
-
-Song: All the Small Things
-
-Preview: https://p.scdn.co/mp3-preview/c0946e586a6c7673db9e601e97a966280d25d680?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: All the Small Things
-------------------------------------------------------------
-
-Artists: Rockabye Baby!
-
-Song: All the Small Things
-
-Preview: https://p.scdn.co/mp3-preview/6c44f4d3cea18aa2a0f7b13ceb0183e10db82ece?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: Lullaby Renditions of Blink-182
-------------------------------------------------------------
-
-Artists: blink-182
-
-Song: All The Small Things
-
-Preview: null
-
-Album: Enema Of The State
-------------------------------------------------------------
-
-Artists: blink-182
-
-Song: All The Small Things
-
-Preview: null
-
-Album: Greatest Hits
-------------------------------------------------------------
-
-Artists: Fame on Fire
-
-Song: All the Small Things
-
-Preview: https://p.scdn.co/mp3-preview/c0946e586a6c7673db9e601e97a966280d25d680?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: All the Small Things
-------------------------------------------------------------
-
-Artists: Scott Bradlee's Postmodern Jukebox, Puddles Pity Party
-
-Song: All The Small Things
-
-Preview: https://p.scdn.co/mp3-preview/8a39c7a626a1c4f9e8c5717668319cbd646edca5?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: Fake Blues
-------------------------------------------------------------
-
-Artists: Rockabye Baby!
-
-Song: All the Small Things
-
-Preview: https://p.scdn.co/mp3-preview/6c44f4d3cea18aa2a0f7b13ceb0183e10db82ece?cid=9a7af6699e8a482a8f65a5a2a20a2194
-
-Album: Lullaby Renditions of Blink-182
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
 ------------------------------------------------------------
 
