@@ -1,0 +1,27 @@
+{
+  "name": "LIRI_App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingsOfDeLeon/LIRI_App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingsOfDeLeon/LIRI_App/issues"
+  },
+  "homepage": "https://github.com/KingsOfDeLeon/LIRI_App#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "clear": "^0.1.0",
+    "dotenv": "^8.1.0",
+    "fs": "0.0.1-security",
+    "node-spotify-api": "^1.1.1"
+  }
+}
