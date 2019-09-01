@@ -7,12 +7,12 @@ Meaning it takes what you type it, and does an action based on what you type.
 # So far, **LIRI** only process **4 commands**.
 
 ## 1. concert-this
-    1. Displays the following information using the Bandsintown API:
+    1. Displays the following information (for up to 4 events) using the Bandsintown API:
         1. Name of the venue
         2. Venue location
         3. Date of the Event ( In "MM/DD/YYYY")
 ## 2. spotify-this-song
-    1. Displays the following information using the Spotify API:
+    1. Displays the following information (for up to 3 events) using the Spotify API:
         1. Artist(s)
         2. The song's name
         3. A preview link of the song from Spotify
@@ -46,5 +46,7 @@ If you clone this to your machine, user must create and populate their own .env 
 To use within terminal, user must call "node liri.js [command] [searchTerm]"
 
 If you run other commands or forget to supply a searchTerm, the app will either give you a gentle reminder to do so, or default to a preset search term.
+
+If you want to increase the amount of information returned from some of the commands (IE, concert-this returning more than 4, you'll have to change the hardcoded preset within the Liri.js file);
 
 

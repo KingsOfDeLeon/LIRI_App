@@ -3,6 +3,7 @@ let axios = require("axios");
 let keys = require("./keys.js");
 let fs = require("fs");
 let Spotify = require('node-spotify-api');
+let moment = require('moment')
 let divider = "\n------------------------------------------------------------\n\n";
 let search = process.argv[2];
 let term = process.argv.slice(3).join(" ");
@@ -161,7 +162,7 @@ function concert(searchQuery) {
                 var elementResults = [];
                 venueName = jsonResults[i].venue.name;
                 venueCityStateCountry = jsonResults[i].venue.city + ', ' + jsonResults[i].venue.region + ', ' + jsonResults[i].venue.country;
-                date = jsonResults[i].datetime;
+                date = moment(jsonResults[i].datetime).format("MM/DD/YYYY");
                 elementResults.push(venueName);
                 elementResults.push(venueCityStateCountry);
                 elementResults.push(date);
