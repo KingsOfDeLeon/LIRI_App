@@ -17,6 +17,9 @@ Meaning it takes what you type it, and does an action based on what you type.
         2. The song's name
         3. A preview link of the song from Spotify
         4. The album that the song is from
+        
+![ExampleOfSpotify](./images/sample_input.png)
+
 ## 3. movie-this
     1. Displays the following information using the OMDB Api:
         1. Title of the movie.
@@ -38,6 +41,8 @@ Meaning it takes what you type it, and does an action based on what you type.
 
 Not only will these commands display the appropriate responses on the console log, it will also write each search result to a log.txt file. found in the same directory.
 
+![ExampleOfLogFileWrite](./images/logfile_sample.png)
+
 
 **IMPORTANT**
 
@@ -46,5 +51,7 @@ If you clone this to your machine, user must create and populate their own .env 
 To use within terminal, user must call "node liri.js [command] [searchTerm]"
 
 If you run other commands or forget to supply a searchTerm, the app will either give you a gentle reminder to do so, or default to a preset search term.
+
+One other pointer, it seems spotify will occasionally return with a 404 error (may be due to sync timing), simply resubmit query and it should work.
 
 
