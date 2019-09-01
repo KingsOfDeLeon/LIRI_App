@@ -9,28 +9,28 @@ Meaning it takes what you type it, and does an action based on what you type.
 ## 1. concert-this
     1. Displays the following information using the Bandsintown API:
         1. Name of the venue
-        1. Venue location
-        1. Date of the Event ( In "MM/DD/YYYY")
-## 1. spotify-this-song
+        2. Venue location
+        3. Date of the Event ( In "MM/DD/YYYY")
+## 2. spotify-this-song
     1. Displays the following information using the Spotify API:
         1. Artist(s)
-        1. The song's name
-        1. A preview link of the song from Spotify
-        1. The album that the song is from
-## 1. movie-this
+        2. The song's name
+        3. A preview link of the song from Spotify
+        4. The album that the song is from
+## 3. movie-this
     1. Displays the following information using the OMDB Api:
         1. Title of the movie.
-        1. Year the movie came out.
-        1. IMDB Rating of the movie.
-        1. Rotten Tomatoes Rating of the movie.
-        1. Country where the movie was produced.
-        1. Language of the movie.
-        1. Plot of the movie.
-        1. Actors in the movie.
+        2. Year the movie came out.
+        3. IMDB Rating of the movie.
+        4. Rotten Tomatoes Rating of the movie.
+        5. Country where the movie was produced.
+        6. Language of the movie.
+        7. Plot of the movie.
+        8. Actors in the movie.
 
-## 1. do-what-it-says
+## 4. do-what-it-says
     1. Reads in the contents of the random.txt file and processes accordingly.
-    1. This function is currently built to only handle 1 line of text in the following format:
+    2. This function is currently built to only handle 1 line of text in the following format:
         1. [command],[searchString]
 
 ![Example](./images/randomtxt_sample.png)
