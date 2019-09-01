@@ -1,23 +1,13 @@
 require("dotenv").config();
-var axios = require("axios");
-var keys = require("./keys.js");
-var fs = require("fs");
-var Spotify = require('node-spotify-api');
-var divider = "\n------------------------------------------------------------\n\n";
-var search = process.argv[2];
-var term = process.argv.slice(3).join(" ");
-var searchType;
+let axios = require("axios");
+let keys = require("./keys.js");
+let fs = require("fs");
+let Spotify = require('node-spotify-api');
+let divider = "\n------------------------------------------------------------\n\n";
+let search = process.argv[2];
+let term = process.argv.slice(3).join(" ");
+let searchType;
 //================================ Main function ==================================================
-
-if (!search) {
-    console.log("Please input one of the following commands: \n");
-    console.log("concert-this" + "\n \t or");
-    console.log("spotify-this-song" + "\n \t or");
-    console.log("movie-this" + "\n \t or");
-    console.log("do-what-it-says" + "\n");
-    return;
-}
-
 if (search === "spotify-this-song") {
     console.log("Searching Spotify");
     if (term) {
@@ -36,6 +26,23 @@ if (search === "spotify-this-song") {
         console.log("Searching 'Mr. Nobody'");
         movie('Mr. Nobody');
     }
+} else if (search === 'concert-this') {
+    console.log("Searching BandsInTown");
+    if (term) {
+        concert(term);
+    } else {
+        console.log("Please enter a band or event for this command.")
+        return;
+    }
+} else if (search === 'do-what-it-says') {
+    readFromFile();
+} else {
+    console.log("Please input one of the following commands: \n");
+    console.log("concert-this" + "\n \t or");
+    console.log("spotify-this-song" + "\n \t or");
+    console.log("movie-this" + "\n \t or");
+    console.log("do-what-it-says" + "\n");
+    return;
 }
 //================================  End Main function ==================================================
 
@@ -51,8 +58,8 @@ function music(searchQuery) {
     spotify.search({
         type: 'track',
         query: searchQuery,
-        // This will allow up to 3 results to return
-        limit: 3 
+        // This will allow up to a maximum of 3 results to return
+        limit: 3
     }, function (err, data) {
         if (err) {
             return console.log('Error occurred: ' + err);
@@ -126,4 +133,107 @@ function movie(searchQuery) {
             });
         });
 }
-//================================ Movie search ==================================================
+//================================ End Movie search ==================================================
+
+//================================ Concert search ==================================================
+function concert(searchQuery) {
+    var URL = "https://rest.bandsintown.com/artists/" + searchQuery + "/events?app_id=codingbootcamp"
+    axios.get(URL)
+        .then(function (response) {
+            searchType = "Concert results: \n";
+
+            var jsonResults = response.data;
+            var concertResults = [];
+            var venueName = '';
+            var venueCityStateCountry = '';
+            var date = '';
+
+            //Only grabs a max of 4 instances events 
+            var searchLimit;
+            if (jsonResults.length > 4) {
+                searchLimit = 4
+            } else {
+                searchLimit = jsonResults.length
+            }
+
+
+            for (var i = 0; i < searchLimit; i++) {
+                var elementResults = [];
+                venueName = jsonResults[i].venue.name;
+                venueCityStateCountry = jsonResults[i].venue.city + ', ' + jsonResults[i].venue.region + ', ' + jsonResults[i].venue.country;
+                date = jsonResults[i].datetime;
+                elementResults.push(venueName);
+                elementResults.push(venueCityStateCountry);
+                elementResults.push(date);
+                concertResults.push(elementResults);
+            }
+            for (var i = 0; i < concertResults.length; i++) {
+                console.log(concertResults[i].join('\n\n') + divider);
+                fs.appendFile("log.txt", searchType + concertResults[i].join('\n\n') + divider, function (err) {
+                    if (err) throw err;
+                    console.log("Successfully wrote results to log.txt!");
+                });
+            }
+        });
+}
+
+//================================ End Concert search ==================================================
+
+//================================ Read file search ==================================================
+function readFromFile() {
+    var data = '';
+    var search = ''
+    var term = ''
+    var parseToken;
+
+    var readStream = fs.createReadStream('random.txt', 'utf8');
+
+    readStream.on('data', function (chunk) {
+        data += chunk;
+        console.log(data);
+    }).on('end', function () {
+        parseToken = data.indexOf(',');
+        search = data.substring(0, parseToken);
+        term = data.substring(parseToken + 1, data.length);
+
+
+        //this should really be in a function and/or a switch statement but THE TIME CRUNCH IS REAL
+        if (search === "spotify-this-song") {
+            console.log("Searching Spotify");
+            if (term) {
+                music(term);
+            } else {
+                console.log("No song was provided");
+                console.log("Searching 'All The Small Things'");
+                music('All The Small Things');
+            }
+        } else if (search === 'movie-this') {
+            console.log("Searching IMDB");
+            if (term) {
+                movie(term);
+            } else {
+                console.log("No movie was provided");
+                console.log("Searching 'Mr. Nobody'");
+                movie('Mr. Nobody');
+            }
+        } else if (search === 'concert-this') {
+            console.log("Searching BandsInTown");
+            if (term) {
+                concert(term);
+            } else {
+                console.log("Please enter a band or event for this command.")
+                return;
+            }
+        } else if (search === 'do-what-it-says') {
+            readFromFile();
+        } else {
+            console.log("Please input one of the following commands: \n");
+            console.log("concert-this" + "\n \t or");
+            console.log("spotify-this-song" + "\n \t or");
+            console.log("movie-this" + "\n \t or");
+            console.log("do-what-it-says" + "\n");
+            return;
+        }
+    });
+}
+//================================ End Read file search ==================================================
