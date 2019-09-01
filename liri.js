@@ -185,7 +185,6 @@ function readFromFile() {
     var search = ''
     var term = ''
     var parseToken;
-
     var readStream = fs.createReadStream('random.txt', 'utf8');
 
     readStream.on('data', function (chunk) {
