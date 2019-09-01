@@ -4,7 +4,7 @@ LIRI is supposed to act as a _**L**anguage **I**nterpretationm and **R**ecogniti
 
 Meaning it takes what you type it, and does an action based on what you type.
 
-So far, **LIRI** only process 4 commands.
+# So far, **LIRI** only process **4 commands**.
 
 1. concert-this
     1. Displays the following information using the Bandsintown API:
@@ -32,8 +32,9 @@ So far, **LIRI** only process 4 commands.
     1. Reads in the contents of the random.txt file and processes accordingly.
     1. This function is currently built to only handle 1 line of text in the following format:
         1. [command],[searchString]
-![Example](/images/logo.png)
-Format: ![random.txt input example](url)
+
+![Example](/images/randomtxt_sample.png)
+
 
 Not only will these commands display the appropriate responses on the console log, it will also write each search result to a log.txt file. found in the same directory.
 
